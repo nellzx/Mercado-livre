@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+}
+
+.top-bar{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-logo{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.search-bar{
+    height: 40px;
+    width: 325px;
+    border: solid transparent 1px;
+    transform: translate(-40px);
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.search-bar:focus{
+    border: solid 1px rgb(116, 116, 116);
+    outline: none;
+}
+
+.promotional-botton{
+    background-image: linear-gradient(to right, purple, rgb(207, 2, 207));
+    color: white;
+    height: 30px;
+    margin-top: 16px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border: none;
+}
+
+.top-bar-2{
+    background-color: yellow;
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+}
+
+.place-icon{
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.CEP-text{
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.bar-buttons{
+    margin-top: 8px;
+    background: none;
+    border: none;
+}
+
+.bar-buttons-2{
+    margin-top: 0px;
+    background: none;
+    border: none;
+}
+
+.profile-section{
+    margin-right: 20px;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.section-1{
+    background-color: rgb(255, 255, 255);
+    padding-top: 2px;
+    height: 500px;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px){
+    .product-4{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .promotional-botton{
+        display: none;
+    }
+    .profile-section{
+        display: none;
+    }
+
+    .search-bar{
+        transform: translate(0px);
+        margin-right: 10px;
+        width: 65%;
+    }
+    .menu-icon{
+        display: block;
+        background: none;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        border: none;
+    }
+}
